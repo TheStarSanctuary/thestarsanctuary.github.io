@@ -8,7 +8,9 @@ a:hover { color: var(--color-secondary) !important; }
 }
 .brand-title {
     color: var(--brand-green) !important;
-    text-shadow: 0px 0px 3px var(--brand-yellow);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-fill-color: var(--brand-green);
+    -webkit-text-stroke-color: var(--brand-yellow);
 }
 
 .bg-dark { background-color: var(--custom-dark) !important; }
