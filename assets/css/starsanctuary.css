@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rammetto+One&display=swap');
 
-a, a:visited { color: var(--custom-primary) !important; }
-a:hover { color: var(--color-secondary) !important; }
+a, a:visited { color: var(--custom-primary); }
+a:hover { color: var(--color-secondary); }
 
 .brand-icon {
     --fa-primary-color: var(--brand-green);
