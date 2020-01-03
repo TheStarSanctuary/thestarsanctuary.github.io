@@ -32,12 +32,11 @@
         </button>
         <div class="collapse navbar-collapse" id="mainMenu">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/about" target="_blank">
-                        <i class="fab fa-chromecast"></i>
-                        <span> Streamers</span>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="streamers" role="button" data-toggle="dropdown">
+                        <div id="streamersList" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        </div>
                     </a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ site.discord }}" target="_blank">
                         <i class="fab fa-discord"></i>
@@ -47,4 +46,6 @@
             </ul>
         </div>
     </nav>
+    <script src="/assets/js/starsanctuary.list.js"></script>
+    <script src="/assets/js/starsanctuary.core.js"></script>
 </body>
