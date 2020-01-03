@@ -45,6 +45,6 @@ if(streamer.indexOf('+') !== -1) {
             autoplay: true
         })
     } else {
-        window.location.href = window.location.origin;
+        console.log(streamer);
     }
 }
