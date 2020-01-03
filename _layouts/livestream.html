@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <title>{{ site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Vysum Team">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="theme-color" content="#{{ site.color }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <link rel="shortcut icon" href="{{ site.icon }}">
+    <link rel="stylesheet" href="{{ site.BootstrapCSS }}">
+    <link rel="stylesheet" href="/assets/css/starsanctuary.{{ page.theme }}.css">
+    <link rel="stylesheet" href="/assets/css/starsanctuary.css">
+    <script src="{{ site.jQuery }}"></script>
+    <script src="{{ site.BootstrapJS }}"></script>
+    <script src="{{ site.FontAwesome }}"></script>
+    <script src="{{ site.TwitchJS }}"></script>
+</head>
+<body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">
+            <i class="fad fa-star brand-icon"></i>
+            <b class="brand-title brand-font"> {{ site.title }}</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="streamers" role="button" data-toggle="dropdown">
+                        <i class="fab fa-chromecast"></i>
+                        <span> Streamers</span>
+                    </a>
+                    <div id="streamersList" class="dropdown-menu dropdown-menu-right">
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.discord }}" target="_blank">
+                        <i class="fab fa-discord"></i>
+                        <span> Discord</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="streamContainer" class="container"></div>
+    <div class="text-center">
+        <p class="text-muted">Web Development &copy; 2020 Vysum Team</p>
+    </div>
+    <script src="/assets/js/starsanctuary.list.js"></script>
+    <script src="/assets/js/starsanctuary.core.js"></script>
+    <script src="/assets/js/starsanctuary.live.js"></script>
+</body>
