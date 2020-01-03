@@ -1,3 +1,3 @@
 var streamerList = [
-    'OrionTheStarhog','TorchofIrony','GardenWolf'
+    'OrionTheStarhog','TorchofIrony','GardenWolf','Doc_Rider'
 ];
