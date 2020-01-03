@@ -7,7 +7,7 @@ if(streamerList.indexOf(streamer) !== -1) {
         allowfullscreen: true,
         layout: 'video-with-chat',
         width: '100%',
-        height: '100vh',
+        height: '100%',
         theme: 'dark',
         autoplay: true
     })
