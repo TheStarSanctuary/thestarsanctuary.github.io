@@ -6,8 +6,8 @@ if(streamerList.indexOf(streamer) !== -1) {
         channel: streamer,
         allowfullscreen: true,
         layout: 'video-with-chat',
-        width: '100%',
-        height: 500,
+        width: 480,
+        height: 940,
         theme: 'dark',
         autoplay: true
     })
