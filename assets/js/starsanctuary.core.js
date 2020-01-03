@@ -1,7 +1,3 @@
-var streamerList = [
-    'OrionTheStarhog','TorchofIrony','GardenWolf'
-];
-
 $(document).ready(function() {
     streamerList.forEach(function(streamer, i) {
         $('#streamersList').append(`
