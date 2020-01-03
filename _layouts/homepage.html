@@ -27,5 +27,24 @@
             <i class="fad fa-star brand-icon"></i>
             <b class="brand-title brand-font"> {{ site.title }}</b>
         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about" target="_blank">
+                        <i class="fab fa-chromecast"></i>
+                        <span> Streamers</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.discord }}" target="_blank">
+                        <i class="fab fa-discord"></i>
+                        <span> Discord</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
 </body>
