@@ -10,7 +10,7 @@ a:hover { color: var(--color-secondary); }
 }
 .brand-title {
     color: var(--brand-green) !important;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.5px;
     -webkit-text-fill-color: var(--brand-green);
     -webkit-text-stroke-color: var(--brand-yellow);
 }
