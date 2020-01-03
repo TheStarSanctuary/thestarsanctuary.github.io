@@ -7,8 +7,8 @@ function createColumns(streamers, columns) {
     }
 }
 
-if(streamer.indexOf('+') !== -1) {
-    var streamers = streamer.split('+');
+if(streamer.indexOf(' ') !== -1) {
+    var streamers = streamer.split(' ');
     var valid = [];
 
     for(var i = 0; i < streamers.length; i++) {
