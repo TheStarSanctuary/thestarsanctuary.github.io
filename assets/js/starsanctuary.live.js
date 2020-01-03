@@ -4,7 +4,7 @@ var sorted = streamerList.map(s => s.toLowerCase());
 
 function createColumns(streamers, columns) {
     for(var i = 0; i < streamers; i++) {
-        $('#streamContainer').append(`<div id="stream${i}" class="col-md-${columns}"></div>`);
+        $('#streamColumns').append(`<div id="stream${i}" class="col-md-${columns}" style="height: 100vh"></div>`);
     }
 }
 
@@ -34,7 +34,7 @@ if(streamer.indexOf(' ') !== -1) {
         })
     }
 } else {
-    $('#streamContainer').append('<div id="soloStream" class="col-md-12"></div>');
+    $('#streamColumns').append('<div id="soloStream" class="col-md-12" style="height: 100vh"></div>');
     if(sorted.indexOf(streamer.toLowerCase()) !== -1) {
         new Twitch.Embed('soloStream', {
             channel: streamer,
