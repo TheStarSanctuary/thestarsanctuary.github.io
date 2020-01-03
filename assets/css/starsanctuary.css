@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One&display=swap');
+
 a, a:visited { color: var(--custom-primary) !important; }
 a:hover { color: var(--color-secondary) !important; }
 
@@ -8,10 +10,11 @@ a:hover { color: var(--color-secondary) !important; }
 }
 .brand-title {
     color: var(--brand-green) !important;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-fill-color: var(--brand-green);
     -webkit-text-stroke-color: var(--brand-yellow);
 }
+.brand-font { font-family: 'Rammetto One' !important; }
 
 .bg-dark { background-color: var(--custom-dark) !important; }
 .bg-black { background-color: var(--custom-black) !important; }
