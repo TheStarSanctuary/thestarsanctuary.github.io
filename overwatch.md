@@ -1,3 +1,4 @@
 ---
 layout: overwatch
+theme: core
 ---
