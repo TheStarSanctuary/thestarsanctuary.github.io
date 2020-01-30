@@ -42,5 +42,5 @@
 .text-light { color: var(--custom-light) !important; }
 .text-white { color: var(--custom-white) !important; }
 
-.hero-icon { height: 1em; width: 1em; background-color: #3c3c3c; border-radius: 50%; border: 2px solid #FA9C1D; }
+.hero-icon { height: 1.3em; width: 1.3em; background-color: #3c3c3c; border-radius: 50%; border: 2px solid #FA9C1D; }
 .hero-icon.disabled { filter: grayscale(100%) !important; border: 2px solid #000000 !important; }
